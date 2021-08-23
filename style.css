@@ -1,0 +1,336 @@
+    /* Corpo da página */
+
+    body {
+        /* Fonte padrão da página */
+        font-family: 'Roboto Condensed';
+    }
+
+    /* Campos de entrada dos formulários */
+
+    input[type=text], input[type=email], input[type=tel], textarea {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 10px 0 20px 0;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+
+    textarea {
+        height: 200px;
+    }
+
+    input[type=submit] {
+        background-color: #1a1aff;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+    }
+
+    input[type=submit]:hover {
+        background-color: black;
+    }
+
+    /* Listas das barras de navegação */
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Links nas barras de navegação */
+
+    nav a {
+        float: left;
+        font-size: 17px;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    /* Barra de navegação principal */
+
+    #navbar {
+        width: 100%;
+        background-color: black;
+        overflow: auto;
+    }
+
+    /* Links da barra de navegação */
+
+    #navbar a {
+        color: white;
+    }
+
+    /* Mouse sobre links da barra de navegação */
+
+    #navbar a:hover {
+        background-color: #1a1aff;
+    }
+
+    /* Item de menu ativo da barra de navegação */
+
+    .active {
+        background-color: #1a1aff;
+    }
+
+    /* Logo da barra de navegação */
+
+    #navbar img {
+        width: 50px;
+        float: right;
+        margin-right: 10px;
+    }
+
+    /* Cabeçalho */
+
+    #cabecalho {
+        height: 250px;
+    }
+
+    /* Logo do cabeçalho */
+
+    #cabecalho img {
+        width: 250px;
+        float: left;
+        text-align: center;
+    }
+
+    /* Título do cabeçalho */
+
+    #cabecalho h1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bolder;
+        text-shadow: 1px 1px gray;
+        padding-top: 70px;
+        padding-bottom: 10px;
+    }
+
+    /* Linha do cabeçalho */
+
+    #cabecalho hr {
+        border: 2px solid black;
+    }
+
+    /* Barra de navegação do cabeçalho */
+
+    #cabecalho div {
+        text-align: center;
+    }
+
+    /* Links da barra de navegação do cabeçalho */
+
+    #cabecalho div a {
+        color: black;
+        text-decoration: none;
+        padding: 0 30px;
+    }
+
+    /* Mouse sobre links da barra de navegação do cabeçalho */
+
+    #cabecalho div a:hover {
+        font-weight: bolder;
+    }
+
+    /* Título das sessões */
+
+    header h2 {
+        margin: 50px 0 0 0;
+    }
+
+    /* Título da sessão Brasil */
+
+    #brasil header {
+        color: green;
+    }
+
+    /* Linha da sessão Brasil */
+
+    #brasil hr {
+        border: 2px solid green;
+    }
+
+    /* Título da sessão Mundo */
+
+    #mundo header {
+        color: blue;
+    }
+
+    /* Linha da sessão Mundo */
+
+    #mundo hr {
+        border: 2px solid blue;
+    }
+
+    /* Título da sessão Ciência */
+
+    #ciencia header {
+        color: purple;
+    }
+
+    /* Linha da sessão Ciência */
+
+    #ciencia hr {
+        border: 2px solid purple;
+    }
+
+    /* Notícias em áudio */
+
+    .audio {
+        overflow-y: hidden;
+    }
+
+    /* Imagem nas notícias em áudio */
+
+    .audio img {
+        float: left;
+        width: 120px;
+        height: 100px;
+        margin: 0 15px 15px 0;
+    }
+
+    /* Responsividade dos vídeos
+    https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
+
+    .video div {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%;
+    }
+
+    /* Vídeo das notícias */
+
+    .video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 99%;
+        height: 98%;
+    }
+
+    /* Notícias em texto */
+
+    .texto {
+        height: 300px;
+        overflow-y: scroll;
+    }
+
+    /* Imagem das notícias em texto */
+
+    .texto img {
+        float: left;
+        width: 250px;
+        height: 175px;
+        margin: 0 15px 15px 0;
+    }
+
+    /* Rodapé */
+
+    footer {
+        font-size: 14px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 50px;
+    }
+
+    /* Blocos de notícias */
+
+    .blocos {
+        display: flex;
+    }
+
+    /* Título da notícia */
+
+    .blocos h3 {
+        margin-top: 0;
+    }
+
+    /* Nomes em Quem Somos */
+
+    .blocos h2 {
+        margin-top: 0;
+        text-shadow: 1px 1px darkgray;
+    }
+
+    /* Notícias */
+
+    .blocos article {
+        background-color: white;
+        margin: 10px;
+        padding: 20px;
+        padding-bottom: 40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 20px;
+        width: 100%;
+    }
+
+    /* Imagem/vídeo da notícia */
+
+    .imgNoticia {
+        border: 3px solid darkgray;
+        border-radius: 20px;
+    }
+
+    /* Fotos em Quem Somos */
+
+    .imgPessoa {
+        width: 200px;
+        height: 200px;
+        border: 3px solid black;
+        border-radius: 100px;
+        float: left;
+        margin: 0 15px 15px 0;
+    }
+
+    /* Lista de sites em Saiba Mais */
+
+    #saibaMais ul {
+        list-style-type: circle;
+    }
+
+    /* Items da lista em Saiba Mais */
+
+    #saibaMais li {
+        padding-bottom: 20px;
+    }
+
+    /* Links em Saiba Mais */
+
+    #saibaMais a {
+        color: black;
+        text-decoration: none;
+        padding: 0 30px;
+    }
+
+    /* Mouse sobre links em Saiba Mais */
+
+    #saibaMais a:hover {
+        font-weight: bolder;
+    }
+
+    /* Imagem do Linkedin */
+
+    .img_linkedin {
+        width: 90px;
+    }
+
+    @media screen and (max-width: 750px) {
+        .navbar a {
+            float: none;
+            display: block;
+        }
+        .blocos {
+            flex-direction: column;
+        }
+        .blocos article {
+            width: 87%;
+        }
+    }
