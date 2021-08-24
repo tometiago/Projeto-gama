@@ -322,7 +322,7 @@
         width: 90px;
     }
 
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 768px) {
         .navbar a {
             float: none;
             display: block;
